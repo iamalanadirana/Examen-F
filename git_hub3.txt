@@ -1,0 +1,15 @@
+git clone git@github.com:iamalanadirana/invie-github.git =clonando repositorios de github
+ssh-keygen -t rsa -b 4096 -C "jhonmira_804@hotmail.com" = crear llave 
+git remote add origin git@github.com:iamalanadirana/invie-github.git =añadir repositorios remotos
+git remote -v = mirar que todo nuestros repositorios remotos esten bien
+git remote remove origin = borrar repositorios remotos
+git fetch origin master= traer repositorio remoto rama origin
+D:\git\invie>git merge origin/master --allow-unrelated-historie = mesclar rama  de origin con master invie
+D:\git\invie>git pull origin master = traer y mezclar la rama origin master con invie
+D:\git\invie>git push origin master =mezcalar del repositorio local al origin master del repositorio remoto
+D:\git\invie>git push origin master --tags =enviar los tag del repositorio local al origin master del repo. remoto
+D:\git\invie>git push origin RD = enviar las ramas del repositorio local al repo. origin remoto
+copy con .gitignore =crear archivo y abrir con aton y alli agregar todos los archivos con su extencion 
+fork = es crear la copia de un proyecto original
+pull recuest = pedir solicitud para que el dueño original pueda mezclar nuestra nueva vercion copiada
+github pages = pone una web estatica con url http: para ello vamos a obciones y buscamos github pages y miramos el proyecto
